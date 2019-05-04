@@ -1,0 +1,24 @@
+ @font-face {
+  font-family: carne;
+  src: url(carne.ttf);
+}
+
+ @font-face {
+  font-family: caseta;
+  src: url(caseta.ttf);
+}
+
+ @font-face {
+  font-family: goodtime;
+  src: url(goodtime.ttf);
+}
+
+ @font-face {
+  font-family: stilltime;
+  src: url(stilltime.ttf);
+}
+
+@font-face {
+  font-family: feena;
+  src: url(feena.ttf);
+}

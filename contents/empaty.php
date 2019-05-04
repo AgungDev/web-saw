@@ -1,0 +1,1 @@
+<h1 style="text-align: center; padding: 80px;"><?php echo "Not Found 404"; ?></h1>

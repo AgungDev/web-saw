@@ -1,0 +1,158 @@
+* {padding: 0;margin: 0;}
+
+/*SMOOTH BOX*/
+
+.foto-banner{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.smooth-box {
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+}
+
+/*BODY*/
+
+.dlt_btn_sm {
+  padding: 5px;
+  color: #ae2424;
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+.dlt_btn_sm:hover {
+  color: #f2f2f2;
+  text-decoration: none;
+  background: #ae2424;
+}
+
+.btnGreen {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+a {text-decoration-line: none;}
+
+.margin_box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box-body{
+    border-radius: 2.5px;
+    width: 75%;
+    margin: auto;
+}
+
+.box-margin{
+    padding: 10px;
+}
+
+/*Footer*/
+
+.footer-lay{
+    text-align: center;
+}
+
+input {
+    margin: 1px;
+}
+
+/*Navigasi*/
+
+nav {
+    height: 30px; 
+    text-align: center; 
+    background-color: #000c;
+    
+}
+
+nav .ul_ {
+    display: inline-block; list-style: none;
+}
+
+nav .ul_ .li_ {
+    text-align: center; float: left;
+}
+
+
+nav .ul_ .li_ a {
+    display: block; color: #FFF; text-decoration: none; padding: 0px 20px; line-height: 30px;
+}
+
+.li_ a:hover {
+    background-color: #222;color: #fff;
+}
+
+/*======================== Nav Dalam ====================*/
+
+nav .ul_ .li_i {
+    text-align: center; float: left;
+}
+
+
+nav .ul_ .li_i a {
+    display: block; text-decoration: none; padding: 0px 20px; line-height: 30px;color : #000;font-weight: bold;
+}
+.li_i a:hover {
+    background-color: #c5c5c5;color: #fff;
+}
+
+/*====================== ONOTHER ===================================*/
+
+.page-title {
+  color: #fff;
+  background-color: #00889E;
+  -moz-box-shadow: 0 1px 0 #fff;
+  -webkit-box-shadow: 0 1px 0 #FFF;
+  box-shadow: 0 1px 0 #FFF;
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+
+.page-title:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.page-title h5 {
+  margin: 0;
+  float: left;
+  display: block;
+  font-size: 15px;
+  padding: 13px 14px 12px 14px;
+  line-height: 1;
+}
+.page-title .btn-group {
+  float: right;
+  padding: 1px 0;
+}
+
+.page-title .btn-group .btn {
+  color: #fff;
+}
+
+.page-title h5 small {
+  margin-left: 6px;
+  font-size: 11px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  vertical-align: 1px;
+  color: #bbb;
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    margin-bottom: 20px;
+  }
+  .page-title h5 small {
+    display: none;
+  }
+}

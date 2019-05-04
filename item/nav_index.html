@@ -1,0 +1,29 @@
+<?php
+if ($_GET['is'] == URL_(1) || $_GET['is'] == null) {
+	# code...
+	//echo "<center><img class='foto-banner' src='data/banner.jpg'></center>";
+	echo "<center style='margin:40px;'><p><h3>WEB SAW</h3></p></center>";
+?>
+
+<nav class="smooth-box">
+	<ul class="ul_">
+	  <li class="li_"><a href="?is=<?php echo(URL_(1)); ?>">Home</a></li>
+	  <li class="li_"><a href="?is=<?php echo(URL_(10)); ?>">Login</a></li>
+	</ul> 
+</nav>
+
+<?php
+}else{
+
+?>
+
+<nav class="smooth-box">
+	<ul class="ul_">
+	  <li class="li_"><a href="?is=<?php echo(URL_(1)); ?>">Home</a></li>
+	  <li class="li_"><a href="?is=<?php echo(URL_(10)); ?>">Login</a></li>
+	</ul> 
+</nav>
+
+<?php 
+}
+?>
