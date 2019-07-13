@@ -3,9 +3,8 @@
 Profile :
 
 Facebook	: https://www.facebook.com/Ganz404
-Twitter		: https://twitter.com/Arjun_Nurdin
+Twitter		: https://twitter.com/patern_mistake
 Blog		: https://vampirgila.blogspot.com/
-Youtube		: https://www.youtube.com/channel/UCr5tNc30b7RTFOvcc9DfGzA
 
 Recomended Attr:
 
